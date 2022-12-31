@@ -1,21 +1,3 @@
-# import requests
-#
-# def download(link,name):
-#     file = requests.get(link)
-#     if file.status_code != 200:
-#         return False
-#     f = open(name,"wb")
-#     f.write(file.content)
-#     f.close()
-#     return True
-#
-# with open('Empty File','r') as files:
-#     links = files.readlines()
-#
-# for i in range(0,len(links)):
-#     result = download(links[i],i)
-#     print(result)
-
 import urllib.request
 import time
 from os import system as terminal, name as os_name
